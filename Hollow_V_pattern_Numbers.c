@@ -40,3 +40,30 @@ int spacess(int i,int n)
     for(spaces=1;spaces<=k;spaces++)
         printf(" ");
 }
+/*
+#include<stdio.h>
+int main()
+{
+    int i,j,n,space=0,k;
+    printf("enter n");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++,printf("\n"))
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        for(space=i+1;space<=2*n-i;space++)
+          {
+
+               printf(" ");
+            }
+        for(j=1,k=i;j<=i;j++,k--)
+
+          printf("%d",k);
+
+
+    }
+    return 0;
+}
+*/
