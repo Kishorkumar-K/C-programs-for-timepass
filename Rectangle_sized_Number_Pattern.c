@@ -2,7 +2,7 @@
 int main()
 {
     int i,j,n=5;
-    for(i=n;i>=1;i--,printf("\n"))
+    for(i=n;i>=1;i--,printf("\n")) //first half
     {
         for(j=n;j>i;j--)
             printf("%d",j);
@@ -11,7 +11,7 @@ int main()
         for(j=i+1;j<=n;j++)
             printf("%d",j);
     }
-    for(i=1;i<n;i++,printf("\n"))
+    for(i=1;i<n;i++,printf("\n"))   //second half
     {
         for(j=n;j>i;j--)
             printf("%d",j);
